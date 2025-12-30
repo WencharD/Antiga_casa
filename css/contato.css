@@ -1,0 +1,115 @@
+html {
+	background-color:#cccbcb;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+main {
+	            
+    width: 1890px;
+	height: 350px;
+    margin: 0;
+    border: 1px solid #cccbcc;
+    background-color: #cccbcb;
+    font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+nav{
+
+	width:1890px;
+	height: 45px;
+    background-color: #491902;
+	margin-top: 0;
+}
+    nav ul{
+
+		list-style: none;
+    	margin: 0;
+	    padding: 8px;
+    }
+    nav ul li{
+        
+		display: inline-block;
+    }
+	nav ul li a{
+        
+		font-size: 1.5em;
+        text-decoration: none;
+        color: #fff;
+        padding: 4px 20px;
+    }
+    nav ul li a:hover{
+
+		background-color: #B4531A;
+    }
+article{
+
+	float: left;
+    margin: 30px 600px;
+    width: 730px;
+    height: auto;
+    
+}
+p{
+    margin-left: 15px;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #000;
+}
+
+h1{
+    
+    margin-left: 30px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #000;
+   
+}
+
+
+.discord-container {
+    text-align: center;
+    background: #cccbcb;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(100, 41, 2, 0.3);
+}
+
+.discord-link {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f0f0f0;
+    background-color: #4b0679;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.discord-link:hover {
+    background-color: #4752c4;
+    transform: scale(1.05);
+}
+
+.discord-link:active {
+    transform: scale(0.97);
+}
+
+.discord-icon {
+    margin-right: 10px;
+}
+footer{
+    clear: both;
+    width: 700px;
+    margin: 0 auto;
+    font-size: 0.55;
+    text-align: center;
+    background-color: #cccbcc;
+    padding: 5px;
+}
